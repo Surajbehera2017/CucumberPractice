@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "upm-login;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110021771,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The browser is opened",
+            "match": {
+              "location": "stepdef1.the_browser_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the Username and password",
+            "match": {
+              "location": "stepdef1.i_enter_the_Username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50694,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The UPM homescreen should open",
+            "match": {
+              "location": "stepdef1.the_UPM_homescreen_should_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "upm-login;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64067,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The browser is opened",
+            "match": {
+              "location": "stepdef1.the_browser_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42607,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the Username and password",
+            "match": {
+              "location": "stepdef1.i_enter_the_Username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46029,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The UPM homescreen should open",
+            "match": {
+              "location": "stepdef1.the_UPM_homescreen_should_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "UPM Login",
+    "description": "",
+    "id": "upm-login",
+    "keyword": "Feature",
+    "uri": "D:/Selenium/Mars_Wrkspace/Cucumber/src/Cucumber_Feature/UPM.feature"
+  }
+]
